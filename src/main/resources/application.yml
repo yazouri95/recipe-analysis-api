@@ -1,0 +1,8 @@
+spoonacular:
+  api:
+    base-url: https://api.spoonacular.com
+    key: "${SPOONACULAR_API_KEY:}"
+  recipes:
+    search-path: recipes/complexSearch
+    information-path: recipes/{id}/information
+    nutrition-path: recipes/{id}/nutritionWidget.json
